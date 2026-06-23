@@ -1,0 +1,17 @@
+# stm32-keil skill - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Required for serial data engine (serial_bridge.py, serial_monitor.py)
+pyserial>=3.5
+
+# Required for terminal serial TUI (serial_tui.py)
+textual>=0.50.0
+
+# Required for PDF reference manual queries (pdf_reader.py)
+PyMuPDF>=1.23
+
+# Optional: PyOCD for flashing backend
+pyocd>=0.36.0
+
+# Optional: Matplotlib for Vofa+ JustFloat real-time plotting
+matplotlib>=3.5.0

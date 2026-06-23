@@ -1,0 +1,26 @@
+{
+  "family": "C0",
+  "description": "STM32C0xx DMA channel mappings (DMA1 only, simple channel routing)",
+  "note": "STM32C0 has only DMA1 with 5 channels and basic request routing.",
+  "controllers": ["DMA1"],
+  "channels_per_controller": 5,
+  "mappings": [
+    {"peripheral": "ADC1", "direction": "P2M", "dma": 1, "channel": 1, "request": 0},
+    {"peripheral": "SPI1_RX", "direction": "P2M", "dma": 1, "channel": 1, "request": 1},
+    {"peripheral": "SPI1_TX", "direction": "M2P", "dma": 1, "channel": 2, "request": 2},
+    {"peripheral": "USART1_RX", "direction": "P2M", "dma": 1, "channel": 3, "request": 3},
+    {"peripheral": "USART1_TX", "direction": "M2P", "dma": 1, "channel": 2, "request": 4},
+    {"peripheral": "USART2_RX", "direction": "P2M", "dma": 1, "channel": 4, "request": 5},
+    {"peripheral": "USART2_TX", "direction": "M2P", "dma": 1, "channel": 3, "request": 6},
+    {"peripheral": "I2C1_RX", "direction": "P2M", "dma": 1, "channel": 5, "request": 7},
+    {"peripheral": "I2C1_TX", "direction": "M2P", "dma": 1, "channel": 4, "request": 8},
+    {"peripheral": "TIM1_CH1", "direction": "M2P", "dma": 1, "channel": 1, "request": 9},
+    {"peripheral": "TIM1_CH2", "direction": "M2P", "dma": 1, "channel": 2, "request": 10},
+    {"peripheral": "TIM1_CH3", "direction": "M2P", "dma": 1, "channel": 3, "request": 11},
+    {"peripheral": "TIM1_CH4", "direction": "M2P", "dma": 1, "channel": 4, "request": 12},
+    {"peripheral": "TIM3_CH1", "direction": "M2P", "dma": 1, "channel": 5, "request": 13},
+    {"peripheral": "TIM3_CH2", "direction": "M2P", "dma": 1, "channel": 1, "request": 14},
+    {"peripheral": "TIM3_CH3", "direction": "M2P", "dma": 1, "channel": 2, "request": 15},
+    {"peripheral": "TIM3_CH4", "direction": "M2P", "dma": 1, "channel": 3, "request": 16}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "stm32-keil",
+  "version": "0.4.0",
+  "schema": 2,
+  "updated": "2026-06-19",
+  "capabilities": [
+    "keil_project_generation",
+    "flash_download_preflight",
+    "peripheral_templates",
+    "error_recovery_loop",
+    "example_index_cache",
+    "serial_debug_protocol",
+    "hardfault_source_translation",
+    "cmake_gcc_verify",
+    "doctor",
+    "stdlib_self_check"
+  ],
+  "migrations": [
+    {
+      "from": "0.3.x",
+      "to": "0.4.0",
+      "description": "Add maintenance scripts, example index cache support, serial protocol guidance, and compact SKILL routing docs."
+    }
+  ]
+}

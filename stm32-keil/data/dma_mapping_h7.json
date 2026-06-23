@@ -1,0 +1,452 @@
+{
+  "family": "H7",
+  "description": "STM32H7xx DMA stream/channel mappings (DMA1/DMA2 with DMAMUX)",
+  "note": "STM32H7 uses DMAMUX1 for request routing. Each DMA has 8 streams.",
+  "controllers": [
+    "DMA1",
+    "DMA2"
+  ],
+  "streams_per_controller": 8,
+  "mappings": [
+    {
+      "peripheral": "ADC1",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 0,
+      "request": 9,
+      "channel": 9
+    },
+    {
+      "peripheral": "ADC2",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 1,
+      "request": 10,
+      "channel": 10
+    },
+    {
+      "peripheral": "SPI1_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 0,
+      "request": 37,
+      "channel": 37
+    },
+    {
+      "peripheral": "SPI1_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 1,
+      "request": 38,
+      "channel": 38
+    },
+    {
+      "peripheral": "SPI2_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 3,
+      "request": 39,
+      "channel": 39
+    },
+    {
+      "peripheral": "SPI2_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 4,
+      "request": 40,
+      "channel": 40
+    },
+    {
+      "peripheral": "SPI3_RX",
+      "direction": "P2M",
+      "dma": 2,
+      "stream": 0,
+      "request": 61,
+      "channel": 61
+    },
+    {
+      "peripheral": "SPI3_TX",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 1,
+      "request": 62,
+      "channel": 62
+    },
+    {
+      "peripheral": "SPI4_RX",
+      "direction": "P2M",
+      "dma": 2,
+      "stream": 3,
+      "request": 83,
+      "channel": 83
+    },
+    {
+      "peripheral": "SPI4_TX",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 4,
+      "request": 84,
+      "channel": 84
+    },
+    {
+      "peripheral": "SPI5_RX",
+      "direction": "P2M",
+      "dma": 2,
+      "stream": 5,
+      "request": 85,
+      "channel": 85
+    },
+    {
+      "peripheral": "SPI5_TX",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 6,
+      "request": 86,
+      "channel": 86
+    },
+    {
+      "peripheral": "SPI6_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 5,
+      "request": 99,
+      "channel": 99
+    },
+    {
+      "peripheral": "SPI6_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 6,
+      "request": 100,
+      "channel": 100
+    },
+    {
+      "peripheral": "USART1_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 2,
+      "request": 41,
+      "channel": 41
+    },
+    {
+      "peripheral": "USART1_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 3,
+      "request": 42,
+      "channel": 42
+    },
+    {
+      "peripheral": "USART2_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 5,
+      "request": 43,
+      "channel": 43
+    },
+    {
+      "peripheral": "USART2_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 6,
+      "request": 44,
+      "channel": 44
+    },
+    {
+      "peripheral": "USART3_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 1,
+      "request": 45,
+      "channel": 45
+    },
+    {
+      "peripheral": "USART3_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 2,
+      "request": 46,
+      "channel": 46
+    },
+    {
+      "peripheral": "UART4_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 4,
+      "request": 63,
+      "channel": 63
+    },
+    {
+      "peripheral": "UART4_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 5,
+      "request": 64,
+      "channel": 64
+    },
+    {
+      "peripheral": "UART5_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 7,
+      "request": 65,
+      "channel": 65
+    },
+    {
+      "peripheral": "UART5_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 0,
+      "request": 66,
+      "channel": 66
+    },
+    {
+      "peripheral": "UART7_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 3,
+      "request": 79,
+      "channel": 79
+    },
+    {
+      "peripheral": "UART7_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 1,
+      "request": 80,
+      "channel": 80
+    },
+    {
+      "peripheral": "UART8_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 6,
+      "request": 81,
+      "channel": 81
+    },
+    {
+      "peripheral": "UART8_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 0,
+      "request": 82,
+      "channel": 82
+    },
+    {
+      "peripheral": "I2C1_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 5,
+      "request": 33,
+      "channel": 33
+    },
+    {
+      "peripheral": "I2C1_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 6,
+      "request": 34,
+      "channel": 34
+    },
+    {
+      "peripheral": "I2C2_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 2,
+      "request": 35,
+      "channel": 35
+    },
+    {
+      "peripheral": "I2C2_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 7,
+      "request": 36,
+      "channel": 36
+    },
+    {
+      "peripheral": "I2C3_RX",
+      "direction": "P2M",
+      "dma": 1,
+      "stream": 2,
+      "request": 73,
+      "channel": 73
+    },
+    {
+      "peripheral": "I2C3_TX",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 3,
+      "request": 74,
+      "channel": 74
+    },
+    {
+      "peripheral": "TIM1_CH1",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 0,
+      "request": 11,
+      "channel": 11
+    },
+    {
+      "peripheral": "TIM1_CH2",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 1,
+      "request": 12,
+      "channel": 12
+    },
+    {
+      "peripheral": "TIM1_CH3",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 2,
+      "request": 13,
+      "channel": 13
+    },
+    {
+      "peripheral": "TIM1_CH4",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 3,
+      "request": 14,
+      "channel": 14
+    },
+    {
+      "peripheral": "TIM2_CH1",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 5,
+      "request": 15,
+      "channel": 15
+    },
+    {
+      "peripheral": "TIM2_CH2",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 6,
+      "request": 16,
+      "channel": 16
+    },
+    {
+      "peripheral": "TIM2_CH3",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 7,
+      "request": 17,
+      "channel": 17
+    },
+    {
+      "peripheral": "TIM2_CH4",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 0,
+      "request": 18,
+      "channel": 18
+    },
+    {
+      "peripheral": "TIM3_CH1",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 1,
+      "request": 19,
+      "channel": 19
+    },
+    {
+      "peripheral": "TIM3_CH2",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 2,
+      "request": 20,
+      "channel": 20
+    },
+    {
+      "peripheral": "TIM3_CH3",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 3,
+      "request": 21,
+      "channel": 21
+    },
+    {
+      "peripheral": "TIM3_CH4",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 4,
+      "request": 22,
+      "channel": 22
+    },
+    {
+      "peripheral": "TIM4_CH1",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 5,
+      "request": 23,
+      "channel": 23
+    },
+    {
+      "peripheral": "TIM4_CH2",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 6,
+      "request": 24,
+      "channel": 24
+    },
+    {
+      "peripheral": "TIM4_CH3",
+      "direction": "M2P",
+      "dma": 2,
+      "stream": 7,
+      "request": 25,
+      "channel": 25
+    },
+    {
+      "peripheral": "TIM4_CH4",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 0,
+      "request": 26,
+      "channel": 26
+    },
+    {
+      "peripheral": "TIM8_CH1",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 1,
+      "request": 47,
+      "channel": 47
+    },
+    {
+      "peripheral": "TIM8_CH2",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 2,
+      "request": 48,
+      "channel": 48
+    },
+    {
+      "peripheral": "TIM8_CH3",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 3,
+      "request": 49,
+      "channel": 49
+    },
+    {
+      "peripheral": "TIM8_CH4",
+      "direction": "M2P",
+      "dma": 1,
+      "stream": 4,
+      "request": 50,
+      "channel": 50
+    },
+    {
+      "peripheral": "SDMMC1",
+      "direction": "BIDI",
+      "dma": 2,
+      "stream": 0,
+      "request": 48,
+      "channel": 48
+    }
+  ]
+}
