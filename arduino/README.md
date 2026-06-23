@@ -1,7 +1,7 @@
 # Arduino Development Skill
 
 ## 简介
-这是一个为 Claude 设计的 Arduino 全流程开发 Skill，旨在将一句话需求自动转化为编译和烧录验证的完整开发流程。它基于 `arduino-cli` 工具，支持 AVR（如 Uno/Nano/Mega）、ESP32 系列、SG200X RISC-V 以及其他所有 Arduino 支持的开发板。
+这是一个为 Arduino 全流程开发设计的 Skill，旨在将一句话需求自动转化为编译和烧录验证的完整开发流程。它基于 `arduino-cli` 工具，支持 AVR（如 Uno/Nano/Mega）、ESP32 系列、SG200X RISC-V 以及其他所有 Arduino 支持的开发板。
 
 ## 功能内容
 - **项目创建与骨架生成**：针对不同硬件需求自动生成 `.ino` 文件，以及分离模块的 C++ 源码。
@@ -11,7 +11,7 @@
 - **串口调试与监控**：一键开启串口调试输出（支持后台运行机制）。
 
 ## 如何使用
-将本文件夹部署到你的 Claude 插件或 Skill 目录中。在与 Claude 对话时，你可以直接提出需求：
+将本文件夹部署到你的 Agent 插件或 Skill 目录中。在与 Agent 对话时，你可以直接提出需求：
 - "帮我写一个ESP32连接WiFi并上报温湿度数据的程序，并烧录到板子上。"
 - "创建一个 Arduino Uno 的项目，控制两个舵机。"
 - "检查并修复我的 ESP32 编译错误。"
